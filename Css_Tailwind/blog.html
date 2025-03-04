@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog en Ligne</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+    <!-- Section d'en-tête -->
+    <header class="bg-green-600 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Mon Blog</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#accueil" class="hover:text-green-300">Accueil</a></li>
+                    <li><a href="#articles" class="hover:text-green-300">Articles</a></li>
+                    <li><a href="#categories" class="hover:text-green-300">Catégories</a></li>
+                    <li><a href="#abonnement" class="hover:text-green-300">Abonnement</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Section des articles vedettes -->
+    <section id="articles" class="py-12">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-8">Articles Vedettes</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="https://via.placeholder.com/400x300" alt="Article 1" class="rounded-lg">
+                    <h3 class="text-xl font-bold mt-4">Article 1</h3>
+                    <p class="mt-2">Extrait de l'article 1.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="https://via.placeholder.com/400x300" alt="Article 2" class="rounded-lg">
+                    <h3 class="text-xl font-bold mt-4">Article 2</h3>
+                    <p class="mt-2">Extrait de l'article 2.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="https://via.placeholder.com/400x300" alt="Article 3" class="rounded-lg">
+                    <h3 class="text-xl font-bold mt-4">Article 3</h3>
+                    <p class="mt-2">Extrait de l'article 3.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section des catégories -->
+    <section id="categories" class="py-12 bg-gray-200">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-8">Catégories</h2>
+            <div class="flex justify-center space-x-4">
+                <span class="bg-green-600 text-white px-4 py-2 rounded-full">Technologie</span>
+                <span class="bg-green-600 text-white px-4 py-2 rounded-full">Design</span>
+                <span class="bg-green-600 text-white px-4 py-2 rounded-full">Business</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section des articles récents -->
+    <section class="py-12">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-8">Articles Récents</h2>
+            <div class="space-y-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold">Article Récent 1</h3>
+                    <p class="text-sm text-gray-600">Publié le 01/01/2023</p>
+                    <p class="mt-2">Extrait de l'article récent 1.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold">Article Récent 2</h3>
+                    <p class="text-sm text-gray-600">Publié le 02/01/2023</p>
+                    <p class="mt-2">Extrait de l'article récent 2.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulaire d'abonnement à la lettre d'information -->
+    <section id="abonnement" class="py-12 bg-gray-200">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-8">Abonnez-vous à notre newsletter</h2>
+            <form class="max-w-lg mx-auto">
+                <div class="mb-4">
+                    <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                    <input type="email" id="email" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm">
+                </div>
+                <button type="submit" class="w-full bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700">S'abonner</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-green-600 text-white py-6">
+        <div class="container mx-auto text-center">
+            <div class="flex justify-center space-x-4 mb-4">
+                <a href="#" class="hover:text-green-300">Facebook</a>
+                <a href="#" class="hover:text-green-300">Twitter</a>
+                <a href="#" class="hover:text-green-300">LinkedIn</a>
+            </div>
+            <p>&copy; 2023 Mon Blog. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

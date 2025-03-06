@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier d'achat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="cart">
+        <!-- Exemple d'article -->
+        <div class="cart-item" data-price="10">
+            <span class="item-name">Article 1</span>
+            <button class="like-btn">❤️</button>
+            <div class="quantity-controls">
+                <button class="decrease-btn">-</button>
+                <span class="quantity">1</span>
+                <button class="increase-btn">+</button>
+            </div>
+            <button class="delete-btn">Supprimer</button>
+        </div>
+    </div>
+    <div class="total-price">
+        Total : <span id="total">0</span> €
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

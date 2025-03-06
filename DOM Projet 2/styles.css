@@ -1,0 +1,42 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Conteneur */
+.container {
+    text-align: center;
+}
+
+/* Boîte de couleur */
+#color-box {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db; /* Couleur par défaut */
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Bouton */
+#change-color-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #2ecc71;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#change-color-btn:hover {
+    background-color: #27ae60;
+}

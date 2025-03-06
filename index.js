@@ -68,7 +68,7 @@ function fibonacciSequence(terms) {
 // String Manipulation
 console.log(reverseString("hello")); // "olleh"
 console.log(countCharacters("hello")); // 5
-console.log(capitalizeWords("hello world")); // "Hello World"
+console.log(capitalizeWords("hello world")); // "Hello Worldd"
 
 // Array Functions
 console.log(findMax([1, 2, 3, 4])); // 4
